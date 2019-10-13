@@ -23,12 +23,13 @@ body, html {
 
 .topleft{
   position: absolute;
+  font-size: 1.5em;
   top: 15px;
   left: 30px;
   justify-content: center;
   width: fit-content;
   border: 1px solid white;
-  padding: 0px 50px
+  padding: 15px 50px 10px;
 }
 
 .bottomleft {
@@ -58,9 +59,22 @@ body, html {
   transform: translate(-50%, -50%);
   text-align: center;
   width: fit-content;
+  line-height: 100px;
+}
+.middle h1{
+	font-weight: bold;
+	font-size: 2em;
 }
 
-hr {
+.border{
+	width: 40%;
+	height: 2px;
+	background: #000;
+	margin: 0px auto;
+}
+
+/*hr {
   margin: auto;
   width: 40%;
 }
+*/
