@@ -79,20 +79,3 @@ body, html {
   width: 40%;
 }
 */
-/*loader*/
-#loader{
-	height: 1500px;
-	width: 1500px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%.-50%);
-	z-index: 5;
-	transition: 5s;
-}
-#loader img{
-	top: 50%;
-	left: 50%;
-	border-radius: 50%;
-	transform: translate(-50%, -50%);
-}
