@@ -1,46 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>ACES </title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACES</title>
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="https://kit.fontawesome.com/96d23cc7c1.js" crossorigin="anonymous"></script>
-	
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container">
+            <a href="index.html" class="navbar-brand logo"><img src="img/logo/logo.png" width="100px" alt="Aces Logo"></a>
+            <button class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation">
+                        <a href="index.html" class="nav-link active">Home</a>    
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="links/about.html" class="nav-link">About</a>    
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="links/products.html" class="nav-link">Products</a>    
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="links/service.html" class="nav-link">Service</a>    
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="links/team.html" class="nav-link">Team</a>    
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a href="links/contact.html" class="nav-link">Contact</a>    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<div class="bg-image"></div>
+    <div class="slider-container">
+        <div class="slider-control left inactive"></div>
+        <div class="slider-control right"></div>
+        <ul class="slider-pagi"></ul>
+        <div class="slider">
+          <div class="slide slide-0 active">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+              <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="slide__text">
+                <h2 class="slide__text-heading" style="font-family: 'Open Sans Condensed', sans-serif;">Ventil Split</h2>
+                <p class="slide__text-desc" style="font-family: 'Open Sans Condensed', sans-serif;"> Content is automatically generated, sales emails, customer retention emails, and custom landing pages are generated based on site content using natural language processing to create relevant marketing content and distribute it across multiple channels.</p>
+                <a class="slide__text-link" style="font-family: 'Open Sans Condensed', sans-serif;">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-1 ">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+              <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="slide__text">
+                <h2 class="slide__text-heading" style="font-family: 'Open Sans Condensed', sans-serif;">Tubi Plast</h2>
+                <p class="slide__text-desc" style="font-family: 'Open Sans Condensed', sans-serif;">WebCorpCo is all about making sure your marketing stack is in alignment with your company as well as the customers you serve. There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
+                <a class="slide__text-link" style="font-family: 'Open Sans Condensed', sans-serif;">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="slide slide-2">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+              <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+              </svg>
+              <div class="slide__text">
+                <h2 class="slide__text-heading" style="font-family: 'Open Sans Condensed', sans-serif;">Air-Water</h2>
+                <p class="slide__text-desc" style="font-family: 'Open Sans Condensed', sans-serif;">Sales is the direct result of marketing and sales data is sometimes even more important than the sales themselves. Why did they buy? What did they buy? When? Who bought? How much did it cost? Then a comparison of sales YTD or Year over Year. This analysis can optimize your ability to sell with WebCorpCo Analytics.</p>
+                <a class="slide__text-link" style="font-family: 'Open Sans Condensed', sans-serif;">Learn More</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
 
-<div class="content">
-  <div class="topleft">
-    <!-- <img src="img/logo-1.jpeg"> -->
-    <h1>AC<span style="color: orangered">E</span>S</h1>
-  </div>
-  <div class="middle">
-    <h1>UNDER <span style="color: orangered;">CONSTRUCTION</span></h1>
-    <div class="border"></div>
-    <p id="demo" style="font-size:35px"></p>
-  </div>
-  <div class="bottomleft">
-    <p>Webpage is under <br> construction.</p>
-    <p style="color: orangered;font-weight: bold">info@aces-llt.eu</p>
+    <!-- <section class="portfolio-block photography">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-3 item zoom-on-hover">
+                        <a href="#">
+                            <img src="img/categories/heat-pump.png" alt="" class="img-fluid image"><br>
+                            AIR-WATER HEAT PUMP
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 item zoom-on-hover">
+                        <a href="#">
+                            <img src="img/categories/productsGINEVARA.png" alt="" class="img-fluid image"><br>
+                            HYDRONIC TERMAL
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 item zoom-on-hover">
+                        <a href="#">
+                            <img src="img/categories/productsventil.png" alt="" class="img-fluid image"><br>
+                            VENTIL SPLIT
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 item zoom-on-hover">
+                        <a href="#">
+                            <img src="img/categories/productstubiplast.png" alt="" class="img-fluid image"><br>
+                            TUBI PLAST
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section> -->
 
-    <center>
-    <a href="https://www.instagram.com/aces-llt/"><i class="fab fa-instagram onhover"></i></a>
-    <a href="https://www.facebook.com/aces-llt/"><i class="fab fa-facebook-square onhover"></i></a>
-    <a href="https://www.linkedin.com/aces-llt/"><i class="fab fa-linkedin onhover"></i></a>
-    </center>
-  </div>
-</div>
+    <div class="page-section about-heading">
+        <div class="container">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="About">
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-lg-10 col-xl-9 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Advanced Comfort Engineering Solution</span>
+                                <span class="section-heading-lower">A C E S</span>
+                            </h2>
+                            <p>ACES is a limited liability company that is created by four shareholders who have a long experience in the area of engineering (resumes shown in the section of Staff). The company headquarters are located in Prishtina, where the company has the offices and the showroom of the products that it provides. </p>
+                            <p class="mb-0">
+                                ACES provides HVAC products and water supply products of international producers, mostly EU, in the area of Kosovo. As per HVAC products, the company is focused more in the renewable products, like Heat Pumps, Air Conditioning Inverters, biomass boilers and the likes. ACES is also providing other HVAC and Water supply products, like pipes, valves, manifolds, etc. from some European companies.
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
-		
-<script type="text/javascript" src="js/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <section class="page-section clearfix">
+        <div class="container">
+            <div class="intro">
+                <img class="img-fluid intro-img mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+                <div class="intro-text left-0 text-centerfaded p-5 rounded bg-faded text-center">
+                    <h2 class="section-heading mg-4">
+                        <span class="section-heading-upper">Fresh Products</span>
+                        <span class="section-heading-lower">Worth Ordering</span>
+                    </h2>
+                    <p class="mb-3">ACES is the official distributor of the Teknopoint for the area of Kosova and is also selling Tubiplast Products in Kosovo. The company is also having new cooperations every day, to sell and distribute many products of European companies in Kosovo. The long experience of the staff, in the area of management, installation and supervision of the HVAC and Plumbing, makes ACES a very serious and high potential company. ACES is very pleased to have in board Academic Staff, Architects, long experienced HVAC engineers, Masters of Water Supply and Plumbing area, designers and very qualified staff for installation of the products that it sells.</p>
+                    <div class="mx-auto intro-button">
+                        <a class="btn btn-primary d-inline-block mx-auto btn-xl" role="button" href="#">Contact Us Today!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="text-center">Partners</h2>
+        <div class="portfolio-block partners">
+            <a href="#">
+                <img src="img/partners/logo-teknopoint.jpg" alt="">
+            </a>
+            <a href="#">
+                <img src="img/partners/logo-tubiplast.png" alt="">
+            </a>
+        </div>
+    </div>
+    
+    <footer class="page-footer gradient">
+        <div class="container">
+            <div class="links">
+                <a href="links/about.html">About us</a>
+                <a href="links/contact.html">Contact us</a>
+                <a href="links/service.html">Services</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="icon fab fa-facebook-f"></i></a>
+                <a href="#"><i class="icon fab fa-instagram"></i></a>
+                <a href="#"><i class="icon fab fa-twitter"></i></a>
+            </div>
+            <div class="copyright">
+                <p>© Copyright 2019-2020 | <a href="index.html">ACES</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
