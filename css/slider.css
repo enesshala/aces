@@ -131,11 +131,11 @@
     background-image: url("../img/carousel/bg1.jpg");
   }
   .slide:nth-child(1) .slide__overlay-path {
-    fill: #e99c7e;
+    fill: #0B132B;
   }
   @media (max-width: 991px) {
     .slide:nth-child(1) .slide__text {
-      background-color: rgba(233, 156, 126, 0.8);
+      background-color: rgba(11, 19, 43, 0.8);
     }
   }
   .slide:nth-child(2) {
@@ -146,11 +146,11 @@
     background-image: url("../img/carousel/bg2.jpg");
   }
   .slide:nth-child(2) .slide__overlay-path {
-    fill: #303030;
+    fill: #1C2541;
   }
   @media (max-width: 991px) {
     .slide:nth-child(2) .slide__text {
-      background-color: rgba(48, 48, 48, 0.8);
+      background-color: rgba(28, 37, 65, 0.8);
     }
   }
   .slide:nth-child(3) {
@@ -161,11 +161,11 @@
     background-image: url("../img/carousel/bg3.jpg");
   }
   .slide:nth-child(3) .slide__overlay-path {
-    fill: #29424a;
+    fill: #3A506B;
   }
   @media (max-width: 991px) {
     .slide:nth-child(3) .slide__text {
-      background-color: rgba(41, 66, 74, 0.8);
+      background-color: rgba(58, 80, 107, 0.8);
     }
   }
   .slide:nth-child(4) {
