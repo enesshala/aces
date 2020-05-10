@@ -19,7 +19,7 @@
   
   .slider-container {
     position: relative;
-    height: 85%;
+    height: 100%;
     margin:auto;
     user-select: none;
     cursor: all-scroll;
