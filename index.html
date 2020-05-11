@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/style.css">
@@ -97,7 +99,9 @@
     <div class="container card-slider">
         <!-- sliderrrrrrrrrrrrr -->
         <ul id="autoWidth" class="cs-hidden">
-            <li class="item-a">
+            <li data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="2000" class="item-a">
                 <a href="links/products.html">
                 <!-- Slider Box -->
                 <div class="box">
@@ -107,7 +111,9 @@
                 </div>
                 </a>
             </li>
-            <li class="item-b">
+            <li data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="2000" class="item-b">
                 <a href="links/products.html">
                 <!-- Slider Box -->
                 <div class="box">
@@ -117,7 +123,9 @@
                 </div>
                 </a>
             </li>
-            <li class="item-c">
+            <li data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="2000" class="item-c">
                 <a href="links/products.html">
                 <!-- Slider Box -->
                 <div class="box">
@@ -127,7 +135,9 @@
                 </div>
                 </a>
             </li>
-            <li class="item-d">
+            <li data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="2000" class="item-d">
                 <a href="links/products.html">
                 <!-- Slider Box -->
                 <div class="box">
@@ -142,10 +152,12 @@
 
     <div id="page-content" class="page-section about-heading">
         <div class="container">
-            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="About">
+            <img data-aos="fade-down"
+            data-aos-duration="3000" class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="About">
             <div class="about-heading-content">
                 <div class="row">
-                    <div class="col-lg-10 col-xl-9 mx-auto">
+                    <div data-aos="fade-down"
+                    data-aos-duration="2000" class="col-lg-10 col-xl-9 mx-auto">
                         <div class="bg-faded rounded p-5">
                             <h2 class="section-heading mb-4">
                                 <span class="section-heading-upper">Advanced Comfort Engineering Solution</span>
@@ -166,8 +178,10 @@
     <section class="page-section clearfix">
         <div class="container">
             <div class="intro">
-                <img class="img-fluid intro-img mb-3 mb-lg-0 rounded" src="img/intro2.jpg" alt="">
-                <div class="intro-text left-0 text-centerfaded p-5 rounded bg-faded text-center">
+                <img data-aos="fade-down"
+                data-aos-duration="3000" class="img-fluid intro-img mb-3 mb-lg-0 rounded" src="img/intro2.jpg" alt="">
+                <div data-aos="fade-down"
+                data-aos-duration="1500" class="intro-text left-0 text-centerfaded p-5 rounded bg-faded text-center">
                     <h2 class="section-heading mg-4">
                         <span class="section-heading-upper">Fresh Products</span>
                         <span class="section-heading-lower">Worth Ordering</span>
@@ -221,8 +235,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/script.js"></script>
+    
 </body>
 </html>
